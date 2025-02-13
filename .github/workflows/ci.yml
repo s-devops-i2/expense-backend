@@ -5,3 +5,4 @@ jobs:
     uses: s-devops-i2/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
       project_name: expense-backend
+    secrets: inherit
